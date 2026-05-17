@@ -41,12 +41,12 @@ export function FeaturedDishes() {
                     alt={d.name}
                     className="aspect-[4/5] rounded-3xl shadow-[var(--shadow-warm)] transition-transform duration-700 group-hover:-translate-y-1"
                   />
-                  <div className="mt-5 flex items-baseline justify-between gap-4">
+                  <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
                     <div>
                       <p className="text-[10px] uppercase tracking-[0.35em] text-foreground/50">{d.tag}</p>
                       <h3 className="font-display text-2xl md:text-3xl mt-1">{d.name}</h3>
                     </div>
-                    <p className="text-sm text-foreground/60 max-w-[14rem] text-right">{d.note}</p>
+                    <p className="text-sm text-foreground/60 sm:max-w-[14rem] sm:text-right">{d.note}</p>
                   </div>
                 </div>
               </Reveal>
