@@ -75,10 +75,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Baba Food Inn — Dosas, Sandwiches & Chaat in Borivali West" },
       { name: "description", content: "Family-friendly restaurant in Borivali West serving great dosas, sandwiches and chaat. Agla stop hamare corner pe." },
       { name: "author", content: "Baba Food Inn" },
-      { property: "og:title", content: "Baba Food Inn" },
-      { property: "og:description", content: "Dosas · Sandwiches · Chaat — Borivali West, Mumbai." },
+      { property: "og:title", content: "Baba Food Inn — Dosas, Sandwiches & Chaat in Borivali West" },
+      { property: "og:description", content: "Family-friendly restaurant in Borivali West serving great dosas, sandwiches and chaat. Agla stop hamare corner pe." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Baba Food Inn — Dosas, Sandwiches & Chaat in Borivali West" },
+      { name: "twitter:description", content: "Family-friendly restaurant in Borivali West serving great dosas, sandwiches and chaat. Agla stop hamare corner pe." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/4f62be2c-9c48-4b1b-b9f8-4facd0b27423/id-preview-a6d437a7--3b26f36e-c59b-4b6c-8618-8dd740704cb5.lovable.app-1779009914947.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/4f62be2c-9c48-4b1b-b9f8-4facd0b27423/id-preview-a6d437a7--3b26f36e-c59b-4b6c-8618-8dd740704cb5.lovable.app-1779009914947.png" },
     ],
     links: [
       {
